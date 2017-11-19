@@ -1,0 +1,24 @@
+{
+  "name": "curio-react-app",
+  "version": "0.0.1",
+  "description": "App for managing article and blog reading lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jackson-dean/curio.git"
+  },
+  "author": "Jackson Dean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackson-dean/curio/issues"
+  },
+  "homepage": "https://github.com/jackson-dean/curio#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.2.1",
+    "webpack": "^3.8.1"
+  }
+}
