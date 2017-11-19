@@ -18,7 +18,15 @@
   },
   "homepage": "https://github.com/jackson-dean/curio#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "copy-webpack-plugin": "^4.2.1",
     "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
   }
 }
