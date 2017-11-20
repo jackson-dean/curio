@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import helloWorld from './utils/hello-world';
-import HelloWorld from './components/hello-world';
+import App from './components/App';
+import {BrowserRouter} from 'react-router-dom';
 
-console.log(helloWorld());
-
-ReactDOM.render(<HelloWorld />, document.getElementById('app'));
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById('app'),
+);
